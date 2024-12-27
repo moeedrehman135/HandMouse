@@ -35,7 +35,9 @@ This project uses computer vision and hand gesture recognition to control the mo
 
 1. Run the script by executing:
     ```bash
-    python hand_gesture_cursor_control.py
+    python3.11 -m venv handmouse-env
+    handmouse-env\Scripts\activate
+    python c:/Users/Moeed/Desktop/Handmouse/main.py
     ```
 
 2. The GUI for adjusting sensitivity will appear. You can set the sensitivity using the slider, and once you're ready, click "Start" to begin the hand gesture control.
