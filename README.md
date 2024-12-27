@@ -37,6 +37,7 @@ This project uses computer vision and hand gesture recognition to control the mo
     ```bash
     python3.11 -m venv handmouse-env
     handmouse-env\Scripts\activate
+    pip install opencv-python mediapipe pyautogui numpy
     python c:/Users/Moeed/Desktop/Handmouse/main.py
     ```
 
